@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl">
+<head>
+    <title>Zoek een arts - Orde der artsen - Ordomedic</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="copyright" content="UniWeb bvba" />
+    <link href="https://www.ordomedic.be/css/default.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://www.ordomedic.be/css/print-ordo.css" media="print" rel="stylesheet" type="text/css" />
+<link href="https://www.ordomedic.be/css/forms.css" media="all" rel="stylesheet" type="text/css" />
+<link href="https://www.ordomedic.be/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://www.ordomedic.be/css/register.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://www.ordomedic.be/css/pagination.css" media="screen" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.ordomedic.be/scripts/bootstrap.js"></script>
+<script type="text/javascript" src="https://www.ordomedic.be/scripts/menus.js"></script>
+    <script language="javascript" src="//www.ordomedic.be/scripts/email.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="https://www.ordomedic.be/favicon.ico?v=2" />
+</head>
+
+
+<body>
+
+<a class="blind" href="#content-container" shape="rect">Skip to content</a>
+
+<div id="wrapper-header">
+    <div id="header">
+        <div id="toolbox">
+            <ul id="nav-languages">
+	<li><a href="https://www.ordomedic.be/nl/zoek-een-arts/" class=" active">NL</a></li>
+	<li><a href="https://www.ordomedic.be/fr/rechercher-un-medecin/" class="last">FR</a></li>
+</ul>
+            <img id="flag" src="https://www.ordomedic.be/images/belgium-flag.gif" width="23" height="20" alt="belgium flag" />
+            <div id="intranet-button">	<a href="https://www.ordomedic.be/nl/intranet/login/?redirect=1063">Aanmelden</a>
+</div>
+            <div class="contact-button"><a href="/nl/contact">Contact</a></div>
+            <!---->
+        </div>
+        <a href="/"><img id="logo" src="https://www.ordomedic.be/images/logo-ordomedic-frnl.png" width="271" height="90" alt="logo"/></a>
+        <form id="search-main" name="search-main" action="https://www.ordomedic.be/nl/search/" method="post">
+<label class="blind">Zoeken</label><input type="submit" class="button" value="Zoeken" />
+	<input type="text" name="query" id="query" value="Doorzoek de website" class="large zoekveld" />
+	
+	<a href="https://www.ordomedic.be/nl/search/geavanceerd-zoeken/">Geavanceerd zoeken</a>
+</form>
+
+<script type="text/javascript">
+	//<![CDATA[
+	
+	$(document).ready(function() {
+		var values_search = {'query':'Doorzoek de website'};
+	
+		$('#search-main :text').bind('focus', function() {
+			if($(this).val() == values_search[$(this).attr('id')]) {
+				$(this).val('');
+				$(this).removeClass('pf');
+			}
+		});
+		$('#search-main :text').bind('blur', function() {
+			if($(this).val() == '') {
+				$(this).val(values_search[$(this).attr('id')]);
+				$(this).addClass('pf');
+			}
+		});
+	});
+	
+	//]]>
+	</script>
+        <ul id="nav-main">
+	<li><a href="https://www.ordomedic.be/nl/home/">Home </a></li>
+	<li><a href="https://www.ordomedic.be/nl/orde/wie-zijn-we/">De Orde</a>
+	<ul>
+		<li><a href="https://www.ordomedic.be/nl/orde/wie-zijn-we/">Wie zijn we?</a></li>
+		<li><a href="https://www.ordomedic.be/nl/orde/disciplinaire-bevoegdheid/">Disciplinaire bevoegdheid</a></li>
+		<li><a href="https://www.ordomedic.be/nl/orde/wetgeving/">Wetgeving</a></li>
+		<li><a href="https://www.ordomedic.be/nl/orde/artseneed/">Artseneed (België)</a></li>
+	</ul>
+	</li>
+	<li><a href="https://www.ordomedic.be/nl/nationale-raad/over-de-nationale-raad/">Nationale Raad</a>
+	<ul>
+		<li><a href="https://www.ordomedic.be/nl/nationale-raad/over-de-nationale-raad/">Over de Nationale Raad</a></li>
+		<li><a href="https://www.ordomedic.be/nl/nationale-raad/samenstelling/">Samenstelling</a></li>
+		<li><a href="https://www.ordomedic.be/nl/nationale-raad/contact/">Contact</a></li>
+	</ul>
+	</li>
+	<li><a href="https://www.ordomedic.be/nl/provinciale-raden/provinciale-raden/">Provinciale Raden</a>
+	<ul>
+		<li><a href="https://www.ordomedic.be/nl/provinciale-raden/provinciale-raden/">Provinciale raden</a></li>
+		<li><a href="https://www.ordomedic.be/nl/provinciale-raden/antwerpen/">Antwerpen</a></li>
+		<li><a href="https://www.ordomedic.be/nl/provinciale-raden/brussel-waals-brabant/">Brussel en Waals-Brabant</a></li>
+		<li><a href="https://www.ordomedic.be/nl/provinciale-raden/vlaams-brabant-brussel/">Vlaams-Brabant en Brussel</a></li>
+		<li><a href="https://www.ordomedic.be/nl/provinciale-raden/henegouwen/">Henegouwen</a></li>
+		<li><a href="https://www.ordomedic.be/nl/provinciale-raden/limburg/">Limburg</a></li>
+		<li><a href="https://www.ordomedic.be/nl/provinciale-raden/luik/">Luik</a></li>
+		<li><a href="https://www.ordomedic.be/nl/provinciale-raden/luxemburg/">Luxemburg</a></li>
+		<li><a href="https://www.ordomedic.be/nl/provinciale-raden/namen/">Namen</a></li>
+		<li><a href="https://www.ordomedic.be/nl/provinciale-raden/oost-vlaanderen/">Oost-Vlaanderen</a></li>
+		<li><a href="https://www.ordomedic.be/nl/provinciale-raden/west-vlaanderen/">West-Vlaanderen</a></li>
+	</ul>
+	</li>
+	<li><a href="https://www.ordomedic.be/nl/raden-van-beroep/raden-van-beroep/">Raden van Beroep</a>
+	<ul>
+		<li><a href="https://www.ordomedic.be/nl/raden-van-beroep/raden-van-beroep/">Raden van Beroep</a></li>
+		<li><a href="https://www.ordomedic.be/nl/raden-van-beroep/nederlandstalig/">Nederlandstalig</a></li>
+		<li><a href="https://www.ordomedic.be/nl/raden-van-beroep/franstalig/">Franstalig</a></li>
+	</ul>
+	</li>
+	<li><a href="https://www.ordomedic.be/nl/adviezen/">Adviezen</a>
+	<ul>
+		<li><a href="https://www.ordomedic.be/nl/adviezen/zoeken/">Zoeken</a></li>
+		<li><a href="https://www.ordomedic.be/nl/adviezen/themas/">Thema's</a></li>
+	</ul>
+	</li>
+	<li><a href="https://www.ordomedic.be/nl/code-2018/inhoud/">Code</a>
+	<ul>
+		<li><a href="https://www.ordomedic.be/nl/code-2018/inhoud/">Inhoud</a></li>
+		<li><a href="https://www.ordomedic.be/nl/code-2018/register-code/">Register code</a></li>
+		<li><a href="https://www.ordomedic.be/nl/code/">Vorige versie</a></li>
+	</ul>
+	</li>
+	<li><a href="https://www.ordomedic.be/nl/internationaal/buitenlands-diploma/">Internationaal</a>
+	<ul>
+		<li><a href="https://www.ordomedic.be/nl/internationaal/buitenlands-diploma/">Buitenlands diploma</a></li>
+		<li><a href="https://www.ordomedic.be/nl/internationaal/links-internationaal/">Links internationaal</a></li>
+		<li><a href="https://www.ordomedic.be/nl/internationaal/declaration-of-helsinki/">Declaration of Helsinki</a></li>
+		<li><a href="https://www.ordomedic.be/nl/internationaal/internationaal-nieuws/">Internationaal nieuws</a></li>
+		<li><a href="https://www.ordomedic.be/nl/internationaal/verslagen-internationale-vergaderingen/">Verslagen internationale vergaderingen</a></li>
+		<li><a href="https://www.ordomedic.be/nl/internationaal/presentaties-internationale-vergaderingen/">Presentaties internationale vergaderingen</a></li>
+	</ul>
+	</li>
+	<li><a href="https://www.ordomedic.be/nl/verkiezingen/">Verkiezingen</a></li>
+</ul>
+    </div>
+</div>
+<!-- #Begin Content# -->
+<div id="wrapper-content">
+    <div id="content-container">
+
+        
+
+        <div id="content-main">
+            <div id="breadcrumbs"><span>Zoek een arts</span></div>
+            <div id="print"><a href="#" onclick="window.print();return false;">Print</a></div>
+
+            <h1>Zoek een arts</h1>
+            <form action="https://www.ordomedic.be/nl/zoek-een-arts/" method="post" id="search-register" class="fullpage">
+	<ul>
+		<li>
+			<label for="search_name">Naam:</label>
+			<input name="search_name" id="search_name" class="large" type="text" value="ABBOUD MARWAN" />
+		</li>
+		<li>
+			<label for="search_place">Postcode of plaats:</label>
+			<div id="place-single" >
+				<input name="search_place" id="search_place" type="text" value="" class="pf large" />
+				<a href="#" id="show-place-range">reeks</a>
+			</div>
+
+			<div id="place-range"  style="display: none;">
+				<input style="width:85px;" name="search_place_min" id="search_place_min" type="text" value="" class="pf large" />
+				tot
+				<input style="width:85px;" name="search_place_max" id="search_place_max" type="text" value="" class="pf large" />
+				<a href="#" id="show-place-single">enkel</a>
+			</div>
+
+		</li>
+						<li>
+			<label for="search_specialism">Specialisme:</label>
+			<select style="width: 207px;" multiple="multiple" name="search_specialism[]" id="search_specialism">
+									<option value="24" label="Acute geneeskunde" >Acute geneeskunde</option>
+									<option value="32" label="Algemene geneeskunde" >Algemene geneeskunde</option>
+									<option value="2" label="Anesthesie-reanimatie" >Anesthesie-reanimatie</option>
+									<option value="37" label="Arbeidsgeneeskunde" >Arbeidsgeneeskunde</option>
+									<option value="19" label="Cardiologie" >Cardiologie</option>
+									<option value="14" label="Dermato-venereologie" >Dermato-venereologie</option>
+									<option value="25" label="Fysische geneeskunde" >Fysische geneeskunde</option>
+									<option value="17" label="Gastro-enterologie" >Gastro-enterologie</option>
+									<option value="33" label="Gerechtelijke geneeskunde" >Gerechtelijke geneeskunde</option>
+									<option value="5" label="Geriatrie" >Geriatrie</option>
+									<option value="8" label="Gynecologie en verloskunde" >Gynecologie en verloskunde</option>
+									<option value="3" label="Heelkunde" >Heelkunde</option>
+									<option value="15" label="Inwendige geneeskunde" >Inwendige geneeskunde</option>
+									<option value="1" label="Kandidaat specialist" >Kandidaat specialist</option>
+									<option value="18" label="Kindergeneeskunde" >Kindergeneeskunde</option>
+									<option value="26" label="Klinische biologie" >Klinische biologie</option>
+									<option value="4" label="Neurochirurgie" >Neurochirurgie</option>
+									<option value="6" label="Neurochirurgie en neuropsychiatrie" >Neurochirurgie en neuropsychiatrie</option>
+									<option value="21" label="Neurologie" >Neurologie</option>
+									<option value="20" label="Neuropsychiatrie" >Neuropsychiatrie</option>
+									<option value="31" label="Nucleaire geneeskunde" >Nucleaire geneeskunde</option>
+									<option value="9" label="Oftalmologie" >Oftalmologie</option>
+									<option value="12" label="Orthopedische heelkunde" >Orthopedische heelkunde</option>
+									<option value="10" label="Otorhinolaryngologie" >Otorhinolaryngologie</option>
+									<option value="27" label="Pathologische anatomie" >Pathologische anatomie</option>
+									<option value="7" label="Plastische heelkunde" >Plastische heelkunde</option>
+									<option value="16" label="Pneumologie" >Pneumologie</option>
+									<option value="22" label="Psychiatrie" >Psychiatrie</option>
+									<option value="30" label="Radiotherapie" >Radiotherapie</option>
+									<option value="23" label="Reumatologie" >Reumatologie</option>
+									<option value="29" label="Röntgendiagnose" >Röntgendiagnose</option>
+									<option value="13" label="Stomatologie" >Stomatologie</option>
+									<option value="28" label="Urgentiegeneeskunde" >Urgentiegeneeskunde</option>
+									<option value="11" label="Urologie" >Urologie</option>
+									<option value="35" label="Verzekeringsgeneeskunde" >Verzekeringsgeneeskunde</option>
+							</select>
+		</li>
+		<li>
+			<input type="submit" value="Zoek" class="button" />
+		</li>
+	</ul>
+</form>
+<script type="text/javascript" src="/scripts/select2/select2.min.js"></script>
+<link rel="stylesheet" href="/scripts/select2/select2.css">
+<script type="text/javascript">
+	//<![CDATA[
+	
+	$(document).ready(function() {
+		$('#search_specialism').select2({
+			placeholder: 'Alle specialismen'
+		}).on('change', function() {
+			if ($(this).val() && $(this).val().length >= 2) {
+				var html = $('.select2-choices li:first-child').clone();
+				$('.select2-choices li:not(:last-child)').remove();
+				var divContent = html.find('div').html($(this).val().length + ' selected');
+				$('.select2-choices').prepend(html).find('a').on('click', function() {
+					$(this).parent('li').remove();
+					$("#search_specialism").val('');
+				});
+			}
+		});
+		$('#search_specialism').change();
+		$('#show-place-range').click(function(){
+			$('#search_place').val('');
+			$('#place-single').hide();
+			$('#place-range').show();
+		});
+		$('#show-place-single').click(function(){
+			$('#place-range').hide();
+			$('#place-single').show();
+			$('#search_place_min').val('');
+			$('#search_place_max').val('');
+		});
+	});
+	
+</script><div id="register-search-results">
+    <div class="pagination">
+
+	<h5>Resultaten: toon <strong>1 - 1</strong> van <strong>1</strong> in totaal.</h5>
+
+	<div class="page-numbers">
+			</div>
+
+	<div class="clear"></div>
+</div>
+	
+            <div class="result">
+            <dl class="personal">
+                <dd class="name">ABBOUD Marwan</dd>
+                                                    <dt>Specialisme</dt>
+                    <dd>Plastische heelkunde</dd>
+                                                                        <dt>Erkenning</dt>
+                    <dd>Geneesheer-specialist voor plastische heelkunde</dd>
+                            </dl>
+            <dl class="address">
+                <dt>Professioneel adres</dt>
+                                <dd>C.H.U. TIVOLI - Av. Max Buset 34  </dd>
+                <dd>7100 LA LOUVIERE</dd>
+                <dd>Belgium</dd>
+                                    <dd>Tel.: 064-27.61.11</dd>
+                                                            </dl>
+                    </div>
+        <div class="clear"></div>
+        <div class="pagination">
+
+	<h5>Resultaten: toon <strong>1 - 1</strong> van <strong>1</strong> in totaal.</h5>
+
+	<div class="page-numbers">
+			</div>
+
+	<div class="clear"></div>
+</div>
+	
+    </div>
+        </div>
+    </div>
+</div>
+<!-- #End Content# -->
+
+<div id="wrapper-footer">
+    <div id="footer">
+        <div class="footer1">
+            						<a href="https://www.ordomedic.be/news/document/download/nl?XMLHttpRequest=143&amp;TNR-146-Definitief.pdf" title="Download document"><img src="https://www.ordomedic.be/images/magazine.png" alt="Magazine" width="77" height="98" /></a>
+			<h2>Tijdschrift Nationale Raad (TNR)</h2>
+			<!--<a href="https://www.ordomedic.be/news/document/download/nl?XMLHttpRequest=143&amp;TNR-146-Definitief.pdf" title="Download document">Download nr. 146 (september 2014)</a> <br>-->
+			<a href="https://www.ordomedic.be/nl/nieuws/tijdschriften/" class="archive-tnr">Archief TNR</a>
+						<div class="clear"></div>
+        </div>
+        <div class="footer2">
+            <h2>Orde der artsen</h2>
+<p>Nationale Raad <br /> de Jamblinne de Meuxplein 34-35 <br /> B-1030 BRUSSEL <br /> Tel.: 02.743.04.00 <br /> Fax: 02 735 35 63</p>
+            <div class="contact-button"><a href="/nl/contact">Contact</a></div>
+        </div>
+        <div class="footer3">
+            <a href="https://www.ordomedic.be/nl/nationale-raad/contact/">contact</a> | <a href="https://www.ordomedic.be/nl/privacy-clausule/">privacy clausule</a> | <a href="https://www.ordomedic.be/nl/links/">links</a> | <a href="https://www.ordomedic.be/nl/sitemap/">sitemap</a>
+            <br>
+            <p>Copyright 2019 - Web Development by <a href="http://www.uniweb.be">UniWeb</a></p>
+            <!-- START SCANALERT CODE -->
+            <a target="_blank" href="https://www.mcafeesecure.com/RatingVerify?ref=ordomedic.be"><img width="115" height="32" border="0" src="//images.scanalert.com/meter/ordomedic.be/12.gif" alt="McAfee SECURE sites help keep you safe from identity theft, credit card fraud, spyware, spam, viruses and online scams" oncontextmenu="alert('Copying Prohibited by Law - McAfee Secure is a Trademark of McAfee, Inc.'); return false;"></a>
+            <!-- END SCANALERT CODE -->
+        </div>
+        
+        
+    </div>
+</div>
+
+<script src='https://ssl.google-analytics.com/ga.js' type='text/javascript'></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-217371-41");
+pageTracker._trackPageview();
+</script>
+</body>
+
+</html>
+
